@@ -34,7 +34,7 @@ Das PartyHat-Präfix steht für Jubel oder Feiern und sollte verwendet werden, w
 
 Bitte beachte, dass die Emote-Präfixe nur in den oben genannten Situationen verwendet werden sollen. 
 Verwende Kappa nur bei sarkastischen oder zweideutigen Antworten und PartyHat, wenn eine feierliche Stimmung angebracht ist. 
-Es sollte kein „“,“ oder „#“ vor oder nach den Präfixen hinzugefügt werden. 
+Es sollte kein “,“ oder „#“ oder „:“ vor oder nach den Präfixen hinzugefügt werden. 
 Die Präfixe dürfen nicht verändert werden.
 
 
