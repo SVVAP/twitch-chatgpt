@@ -182,4 +182,22 @@ app.all('/continue/', (req, res) => {
     }
 })
 
+import com.sun.speech.freetts.Voice;
+import com.sun.speech.freetts.VoiceManager;
+
+public class TwitchChatBot {
+
+    public static void main(String[] args) {
+        speak("Hallo, ich bin dein Twitch Chat Bot!");
+    }
+
+    public static void speak(String text) {
+        Voice voice;
+        VoiceManager voiceManager = VoiceManager.getInstance();
+        voice = voiceManager.getVoice("kevin16");
+        voice.allocate();
+        voice.speak(text);
+    }
+}
+
 app.listen(process.env.PORT || 3000)
